@@ -1,0 +1,14 @@
+{
+  "en": {
+    "mpImgEmbed.entry.name": "Image Embedding",
+    "mpImgEmbed.entry.description": "Description of this extension"
+  },
+  "ja": {
+    "mpImgEmbed.entry.name": "Image Embedding",
+    "mpImgEmbed.entry.description": "拡張機能の説明"
+  },
+  "ja-Hira": {
+    "mpImgEmbed.entry.name": "Image Embedding",
+    "mpImgEmbed.entry.description": "かくちょうきのうのせつめい"
+  }
+}

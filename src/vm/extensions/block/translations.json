@@ -1,0 +1,14 @@
+{
+  "en": {
+    "mpImgEmbed.name": "Image Embedding",
+    "mpImgEmbed.doIt": "do it [SCRIPT]"
+  },
+  "ja": {
+    "mpImgEmbed.name": "Image Embedding",
+    "mpImgEmbed.doIt": "[SCRIPT] を実行する"
+  },
+  "ja-Hira": {
+    "mpImgEmbed.name": "Image Embedding",
+    "mpImgEmbed.doIt": "[SCRIPT] をじっこうする"
+  }
+}

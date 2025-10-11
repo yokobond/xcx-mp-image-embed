@@ -1,0 +1,6 @@
+node_modules/
+dist/
+
+src/vm/*
+!src/vm/extensions/
+!src/vm/.*
