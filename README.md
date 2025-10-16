@@ -9,6 +9,37 @@ This extension provides blocks to create embeddings from images using MediaPipe'
 Play [Example Project](https://xcratch.github.io/editor/#https://yokobond.github.io/xcx-mp-imgembed/projects/example.sb3) to look at what you can do with "Image Embedding" extension. 
 <iframe src="https://xcratch.github.io/editor/player#https://yokobond.github.io/xcx-mp-imgembed/projects/example.sb3" width="540px" height="460px"></iframe>
 
+### Example Project
+
+The example project demonstrates how to calculate image similarity using the Image Embedding extension:
+
+#### How to Use:
+
+1. **Change Images**: 
+   - Click on "Image1" or "Image2" sprites to change their costume
+   - Each click cycles through different costume variations
+
+2. **Calculate Similarity**: 
+   - Click on the cat sprite on the right side of the stage
+   - The similarity score will be displayed (ranges from -1 to 1, where 1 means identical)
+
+3. **Camera Mode**:
+   - Click on the camera icon at the bottom right to switch to camera mode
+   - The live camera feed will capture images for comparison
+
+#### Use Cases:
+
+**Compare Scratch Costumes**: Calculate the similarity between two costume images of Scratch characters (e.g., Cat-a costume variations). Perfect for creating games that detect costume changes or match patterns.
+
+**Compare Camera Images**: Capture live images from your camera and compare them with sample images to measure their similarity. This is useful for:
+- Face recognition and verification
+- Object matching and detection
+- Visual similarity search
+- Real-time image comparison
+- Educational projects about AI and image recognition
+
+The project shows the similarity score as a decimal value (e.g., 0.9226...), allowing you to set thresholds for image matching in your Scratch projects.
+
 ### Features
 
 - **Embed Images**: Convert images into embedding vectors using MediaPipe's Image Embedder model
