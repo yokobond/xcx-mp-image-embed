@@ -41,7 +41,7 @@ const entry = {
     featured: true,
     disabled: false,
     bluetoothRequired: false,
-    internetConnectionRequired: false,
+    internetConnectionRequired: true,
     helpLink: 'https://yokobond.github.io/xcx-mp-image-embed/',
     setFormatMessage: formatter => {
         formatMessage = formatter;

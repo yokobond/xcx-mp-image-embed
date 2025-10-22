@@ -1,14 +1,14 @@
 {
   "en": {
     "mpImageEmbed.entry.name": "Image Embedding",
-    "mpImageEmbed.entry.description": "Extension to embed images using MediaPipe Image Embedder"
+    "mpImageEmbed.entry.description": "Embed images using Google MediaPipe Image Embedder"
   },
   "ja": {
     "mpImageEmbed.entry.name": "Image Embedding",
-    "mpImageEmbed.entry.description": "MediaPipe Image Embedderを使用して画像を数値で表現する拡張機能"
+    "mpImageEmbed.entry.description": "Google MediaPipe Image Embedder を使って画像を数値で表現する"
   },
   "ja-Hira": {
     "mpImageEmbed.entry.name": "イメージ エンベディング",
-    "mpImageEmbed.entry.description": "MediaPipe Image Embedder を つかって がぞう を すうち で ひょうげん する かくちょうきのう"
+    "mpImageEmbed.entry.description": "Google MediaPipe Image Embedder を つかって がぞう を すうち で ひょうげん する"
   }
 }
