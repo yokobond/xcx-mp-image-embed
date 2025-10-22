@@ -6,8 +6,8 @@ This extension provides blocks to create embeddings from images using MediaPipe'
 
 ## ✨ What You Can Do With This Extension
 
-Play [Example Project](https://xcratch.github.io/editor/#https://yokobond.github.io/xcx-mp-imgembed/projects/example.sb3) to look at what you can do with "Image Embedding" extension. 
-<iframe src="https://xcratch.github.io/editor/player#https://yokobond.github.io/xcx-mp-imgembed/projects/example.sb3" width="540px" height="460px" allow="camera"></iframe>
+Play [Example Project](https://xcratch.github.io/editor/#https://yokobond.github.io/xcx-mp-image-embed/projects/example.sb3) to look at what you can do with "Image Embedding" extension. 
+<iframe src="https://xcratch.github.io/editor/player#https://yokobond.github.io/xcx-mp-image-embed/projects/example.sb3" width="540px" height="460px" allow="camera"></iframe>
 
 ### Example Project
 
@@ -49,10 +49,10 @@ The project shows the similarity score as a decimal value (e.g., 0.9226...), all
 
 ### Available Blocks
 
-1. **embed [IMAGE]** - Returns an embedding vector (comma-separated values) for the given image data URL
+1. **embeddings for [IMAGE]** - Returns an embedding vector (comma-separated values) for the given image data URL
 2. **cosine similarity of [VECTOR1] and [VECTOR2]** - Computes the cosine similarity between two embedding vectors (returns a value between -1 and 1, where 1 means identical)
-3. **set model asset path to [PATH]** - Sets a custom path for the MediaPipe model assets
-4. **get model asset path** - Returns the current model asset path
+3. **set model path to [PATH]** - Sets a custom path for the MediaPipe model assets
+4. **get model path** - Returns the current model asset path
 
 
 ## How to Use in Xcratch
@@ -63,7 +63,7 @@ This extension can be used with other extension in [Xcratch](https://xcratch.git
 3. Select 'Extension Loader' extension
 4. Type the module URL in the input field 
 ```
-https://yokobond.github.io/xcx-mp-imgembed/dist/mpImgEmbed.mjs
+https://yokobond.github.io/xcx-mp-image-embed/dist/mpImageEmbed.mjs
 ```
 5. Click 'OK' button
 6. Now you can use the blocks of this extension
@@ -112,9 +112,9 @@ npm run test
 
 ## 🏠 Home Page
 
-Open this page from [https://yokobond.github.io/xcx-mp-imgembed/](https://yokobond.github.io/xcx-mp-imgembed/)
+Open this page from [https://yokobond.github.io/xcx-mp-image-embed/](https://yokobond.github.io/xcx-mp-image-embed/)
 
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/yokobond/xcx-mp-imgembed/issues). 
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/yokobond/xcx-mp-image-embed/issues). 
