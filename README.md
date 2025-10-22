@@ -15,17 +15,17 @@ The example project demonstrates how to calculate image similarity using the Ima
 
 #### How to Use:
 
-1. **Change Images**: 
-   - Click on "Image1" or "Image2" sprites to change their costume
-   - Each click cycles through different costume variations
+1. **Start Comparison**: 
+   - Click the green flag to start comparing the similarity between two images
+   - The similarity score will be continuously calculated and displayed
 
-2. **Calculate Similarity**: 
-   - Click on the cat sprite on the right side of the stage
+2. **Change Images**: 
+   - Click on either image sprite to switch between different images
    - The similarity score will be displayed (ranges from -1 to 1, where 1 means identical)
 
 3. **Camera Mode**:
-   - Click on the camera icon at the bottom right to switch to camera mode
-   - The live camera feed will capture images for comparison
+   - Click on the camera icon to start capturing live camera images
+   - The live camera feed will be compared with previously sampled images
 
 #### Use Cases:
 
