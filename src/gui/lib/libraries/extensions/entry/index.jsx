@@ -20,29 +20,29 @@ const version = `v${packageVersion}`;
 const entry = {
     get name () {
         return formatMessage({
-            id: 'mpImgEmbed.entry.name',
+            id: 'mpImageEmbed.entry.name',
             defaultMessage: 'Image Embedding',
             description: 'name of the extension'
         });
     },
-    extensionId: 'mpImgEmbed',
-    extensionURL: 'https://yokobond.github.io/xcx-mp-imgembed/dist/mpImgEmbed.mjs',
-    collaborator: 'yokobond',
+    extensionId: 'mpImageEmbed',
+    extensionURL: 'https://yokobond.github.io/xcx-mp-image-embed/dist/mpImageEmbed.mjs',
+    collaborator: 'Koji Yokokawa',
     iconURL: iconURL,
     insetIconURL: insetIconURL,
     get description () {
         return `${formatMessage({
-            defaultMessage: 'an extension for Xcratch',
+            defaultMessage: 'Extension to embed images using MediaPipe Image Embedder',
             description: 'Description for this extension',
-            id: 'xcratchExample.entry.description'
+            id: 'mpImageEmbed.entry.description'
         })} (${version})`;
     },
-    tags: [],
+    tags: ['ai', 'image', 'machine learning', 'ml', 'mediapipe', 'vision'],
     featured: true,
     disabled: false,
     bluetoothRequired: false,
     internetConnectionRequired: false,
-    helpLink: 'https://yokobond.github.io/xcx-mp-imgembed/',
+    helpLink: 'https://yokobond.github.io/xcx-mp-image-embed/',
     setFormatMessage: formatter => {
         formatMessage = formatter;
     },

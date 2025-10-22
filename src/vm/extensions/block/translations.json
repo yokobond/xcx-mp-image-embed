@@ -1,14 +1,23 @@
 {
   "en": {
-    "mpImgEmbed.name": "Image Embedding",
-    "mpImgEmbed.doIt": "do it [SCRIPT]"
+    "mpImageEmbed.name": "Image Embedding",
+    "mpImageEmbed.embedImage": "embeddings for [IMAGE]",
+    "mpImageEmbed.cosineSimilarity": "cosine similarity of [VECTOR1] and [VECTOR2]",
+    "mpImageEmbed.setModelPath": "set model path to [PATH]",
+    "mpImageEmbed.getModelPath": "get model path"
   },
   "ja": {
-    "mpImgEmbed.name": "Image Embedding",
-    "mpImgEmbed.doIt": "[SCRIPT] を実行する"
+    "mpImageEmbed.name": "Image Embedding",
+    "mpImageEmbed.embedImage": "エンベディング値: [IMAGE]",
+    "mpImageEmbed.cosineSimilarity": "コサイン類似度: [VECTOR1] と [VECTOR2]",
+    "mpImageEmbed.setModelPath": "モデルを [PATH] にする",
+    "mpImageEmbed.getModelPath": "モデル"
   },
   "ja-Hira": {
-    "mpImgEmbed.name": "Image Embedding",
-    "mpImgEmbed.doIt": "[SCRIPT] をじっこうする"
+    "mpImageEmbed.name": "Image Embedding",
+    "mpImageEmbed.embedImage": "エンベディングち: [IMAGE]",
+    "mpImageEmbed.cosineSimilarity": "コサインるいじど: [VECTOR1] と [VECTOR2]",
+    "mpImageEmbed.setModelPath": "モデルを [PATH] にする",
+    "mpImageEmbed.getModelPath": "モデル"
   }
 }
