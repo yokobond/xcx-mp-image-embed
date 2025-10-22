@@ -1,0 +1,11 @@
+{
+  "extensionId": "mpImageEmbed",
+  "versions": [
+    {
+      "version": "0.1.0",
+      "buildDate": "2025-10-22T11:33:51.396Z",
+      "module": "0.1.0/mpImageEmbed.mjs"
+    }
+  ],
+  "latest": "0.1.0"
+}

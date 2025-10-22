@@ -1,6 +1,6 @@
 {
   "name": "xcx-mp-image-embed",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "extension for Xcratch",
   "extensionId": "mpImageEmbed",
   "scripts": {
